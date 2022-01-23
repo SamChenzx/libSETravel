@@ -1,0 +1,12 @@
+module SETravel {
+  umbrella header "SETravel-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module SETravel.Swift {
+  header "/Users/sam/Desktop/SETravel/Example/build/Debug-iphoneos/SETravel/Swift Compatibility Header/SETravel-Swift.h"
+  requires objc
+}
