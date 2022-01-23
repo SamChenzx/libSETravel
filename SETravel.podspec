@@ -8,10 +8,11 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "SETravel.podspec"
-  spec.version      = "1.0.0"
-  spec.summary      = "A short description of SETravel."
+  spec.name         = "SETravel"
+  spec.version      = "1.0.1"
+  spec.summary      = "SETravel static lib for compile test"
   spec.description  = <<-DESC
+                      SETravel static lib for compile test, a private spec repo
                    DESC
 
   spec.homepage     = "https://github.com/SamChenzx/libSETravel"
@@ -24,7 +25,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
-  spec.ios.deployment_target = "10.0"
+  spec.ios.deployment_target = "9.0"
 
   spec.source       = { :git => "https://github.com/SamChenzx/libSETravel.git", :tag => "#{spec.version}" }
   spec.ios.vendored_libraries =  'libSETravel.a' 
